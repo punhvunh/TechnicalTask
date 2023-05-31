@@ -16,7 +16,7 @@ class ShopPhonePageElementsLocators:
     SELECTION_ARROW = \
         (By.XPATH, '//span[contains(@class,"selection")]//span[contains(@class,"select2-selection__arrow")]')
 
-    PHONE_NAME_AND_COLOUR_HEADER = (By.XPATH, '//span[contains(@itemprop,"name")]//h1[contains(@class,"h")]')
+    PHONE_NAME_AND_COLOR_HEADER = (By.XPATH, '//span[contains(@itemprop,"name")]//h1[contains(@class,"h")]')
 
     SELECT_6_MONTH = (By.XPATH, SELECT_6_MONTH_XPATH)
 
