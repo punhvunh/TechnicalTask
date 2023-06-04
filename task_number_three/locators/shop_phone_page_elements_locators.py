@@ -11,7 +11,7 @@ class ShopPhonePageElementsLocators:
 
     SELECT_6_MONTH_XPATH = '//span[contains(@class,"select2-results")]//li[contains(@class,"select2-results__option")]//div[contains(@class,"value")][contains(.,"6 мес по")]'
 
-    LOG_IN_AND_BYE_BUTTON_XPATH = '//div[contains(@class,"live-filter-content-item active")]//div[contains(@class,"price-block-button")]//button//span[contains(@class,"button-label")][text()="Войти и купить"]'
+    LOG_IN_AND_BUY_BUTTON_XPATH = '//div[contains(@class,"live-filter-content-item active")]//div[contains(@class,"price-block-button")]//button//span[contains(@class,"button-label")][text()="Войти и купить"]'
 
     SELECTION_ARROW = \
         (By.XPATH, '//span[contains(@class,"selection")]//span[contains(@class,"select2-selection__arrow")]')
@@ -20,4 +20,4 @@ class ShopPhonePageElementsLocators:
 
     SELECT_6_MONTH = (By.XPATH, SELECT_6_MONTH_XPATH)
 
-    LOG_IN_AND_BYE_BUTTON = (By.XPATH, LOG_IN_AND_BYE_BUTTON_XPATH)
+    LOG_IN_AND_BUY_BUTTON = (By.XPATH, LOG_IN_AND_BUY_BUTTON_XPATH)

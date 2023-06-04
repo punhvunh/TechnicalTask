@@ -21,5 +21,5 @@ class TestShopPhonePage:
         for data in a1_data['a1_data']:
             url = data['url']
             shop_phone_page = opens_domain(self.driver, url)
-            shop_phone_page.clicks_on_button_log_in_bye()
+            shop_phone_page.clicks_on_button_log_in_and_buy()
 
